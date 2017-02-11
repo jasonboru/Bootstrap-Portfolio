@@ -1,0 +1,83 @@
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    width: 140px;
+    margin: 10px 0px;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+form {
+	margin: 0 10px;
+}
+
+label {
+	float: left;
+	text-align: right;
+	padding-bottom: 12px;
+}
+
+textarea {
+	width: 100%;
+}
+
+footer {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+	background-color: #666666;
+	border-top: 10px solid #4aaaa5;
+	color: #cccccc;
+	height: 75px;
+	z-index: 3;
+}
+
+.portImg {
+	margin-bottom: 20px;
+}
+
+.portImg img {
+	border: 1px solid #ccc;
+}
+
+.portImg:hover {
+    border: 1px solid #000;
+    opacity: .5;
+}
+
+.bioPic {
+	float: left;
+	margin: 20px;
+}
+
+.imgWrap {
+	
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background-color: #4aaaa5;
+}
+
+.xtraMargin {
+	margin: 50px;
+}
+.foot {
+	position: absolute;
+	top: 40%;
+	left:45%;
+}

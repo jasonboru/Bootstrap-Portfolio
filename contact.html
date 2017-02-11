@@ -10,6 +10,7 @@
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
@@ -19,7 +20,7 @@
   <nav class="navbar navbar-default">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">Jason O'Brien</a>
+        <a class="navbar-brand" href="index.html">Jason O'Brien</a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
@@ -33,19 +34,27 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-8" style="border:1px solid #ccc;">
+      <div class="col-md-8 greyBack" style="border:1px solid #ccc;">
         <div class="page-header">
           <h1>Contact</h1>
         </div>
         <div class="row">
           <div class="col-md-12">
             <form action="https://formspree.io/jasonboru@gmail.com" method="POST">
-  				Name: <input type="text" name="name" placeholder="John Smith"><br>
-  				Email: <input type="text" name="email" placeholder="example@email.com"><br>
-  				<label>Message:</label>
-  				<textarea name="message" rows="10" class="message"></textarea>
-  				<input type="submit" value="Submit">
-			</form>
+              <div class="form-group">
+  				      <label for="name">Name:</label>
+                <input type="text" class="form-control" name="name" placeholder="John Smith"><br>
+              </div>
+              <div class="form-group">  
+  				      <label for="email">Email:</label>
+                <input type="text" class="form-control" name="email" placeholder="example@email.com"><br>
+              </div>
+              <div class="form-group">  
+  				      <label>Message:</label>
+  				      <textarea class="form-control" name="message" rows="10" class="message"></textarea>
+              </div>
+  				    <input class="btn-lg btn-default" type="submit" value="Submit">
+			      </form>
           </div>
         </div>
       </div>
@@ -61,14 +70,14 @@
 
           <div class="panel-body connect">
             <div class="row">
-              <div class="col-sm-4">
-                <a href="http://stackoverflow.com/users/7370308/jason"><img class="img-responsive" src="assets/images/stacked.png" alt="Stack Overflow"></a>
+              <div class="col-sm-4">  
+                <a href="https://github.com/jasonboru"><img class="img-responsive" src="assets/images/github.png" alt="GitHub"></a>
               </div>
               <div class="col-sm-4"> 
                 <a href="https://www.linkedin.com/in/jason-obrien-462630133"><img class="img-responsive" src="assets/images/linkedin.png" alt="LinkedIn"></a>
               </div>
-              <div class="col-sm-4">  
-                <a href="https://github.com/jasonboru"><img class="img-responsive" src="assets/images/github.png" alt="GitHub"></a>
+              <div class="col-sm-4">
+                <a href="http://stackoverflow.com/users/7370308/jason"><img class="img-responsive" src="assets/images/stacked.png" alt="Stack Overflow"></a>
               </div>
             </div>
             <!--closes row in panel body-->    
@@ -83,10 +92,10 @@
   </div>
   <!--closes main container-->
 
-  <footer class="group">
-	<div class="foot">
-	  <p>&#169; Copyright 2017 Jason O'Brien</p>
-	</div>
+  <footer class="footer">
+    <div class="container text-center vcenter">
+      <p class="text-muted">&#169; Copyright 2017 Jason O'Brien</p>
+    </div>  
   </footer>
 
   <!-- jQuery CDN -->
